@@ -10,7 +10,9 @@ require_once './stu.php';
 define("TOKEN", "weixin");
 $wechatObj = new wechatCallbackapiTest();
 $wechatObj->responseMsg();
-class wechatCallbackapiTest {
+
+class wechatCallbackapiTest
+{
     public function valid() {
         $echoStr = $_GET["echostr"];
         //valid signature , option

@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-
 <html>
 <head>
-    <meta charset="UTF-8" /> 
-    <meta http-equiv="Content-Type" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <title>
         师大小伙伴学号绑定
@@ -12,34 +9,34 @@
 </head>
 <body>
 
-    
+
 <?php
 $fromUsername=$_GET["openid"];
 
-  if(isset($_POST["submit"]))
-  {
+if(isset($_POST["submit"]))
+{
     bangding($fromUsername,urlencode($_POST["txtUserID"]),urlencode($_POST["txtUserPwd"]));
-      exit();   /**************跳转到新的页面******************/
-  }
+    exit();   /**************跳转到新的页面******************/
+}
 //$user=$_POST["txtUserID"];
 //$password=$_POST["txtUserPwd"];
 function bangding($fromUsername,$usersno,$password)
 {
-            require_once './sql.php';  
-            $sql = "SELECT stu_no, stu_wd FROM students WHERE from_user = '$fromUsername'";
-            $result = _select_data($sql);       //查找是否已存在信息
-            while (!!$rows = mysql_fetch_array($result))
-            { 
-                $no = $rows[stu_no];
-            }
-            if (empty($no))
-            {
-                $sql = "insert into students (from_user, stu_no, stu_wd) values('$fromUsername', '$usersno', '$password')";
-                _insert_data($sql);
-                $contentStr = "绑定成功 ↖点击此处返回<br/>重新发送'3'成绩即可<br/>密码错误发送'#'取消绑定，进行重新绑定";
-                echo  $contentStr; 
-            }
-            else echo "绑定失败<br/>请重新绑定";
+    require_once './sql.php';
+    $sql = "SELECT stu_no, stu_wd FROM students WHERE from_user = '$fromUsername'";
+    $result = _select_data($sql);       //查找是否已存在信息
+    while (!!$rows = mysql_fetch_array($result))
+    {
+        $no = $rows[stu_no];
+    }
+    if (empty($no))
+    {
+        $sql = "insert into students (from_user, stu_no, stu_wd) values('$fromUsername', '$usersno', '$password')";
+        _insert_data($sql);
+        $contentStr = "绑定成功 ↖点击此处返回<br/>重新发送'3'成绩即可<br/>密码错误发送'#'取消绑定，进行重新绑定";
+        echo  $contentStr;
+    }
+    else echo "绑定失败<br/>请重新绑定";
 }
 
 echo' <div id="wrapper">
@@ -61,9 +58,9 @@ echo' <div id="wrapper">
     </div>
     </form>
     </div>
-    <div class="gradient"></div> '; 
+    <div class="gradient"></div> ';
 
-    
+
 ?>
 </body>
 </html>
