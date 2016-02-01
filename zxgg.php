@@ -18,7 +18,6 @@ function _zxgg()
             'Url' => "xxx". str_replace('amp;', '', $n[1][$i])
         );
     }
-    //print_r($news);
     return $news;
 }
 ?>
