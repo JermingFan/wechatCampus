@@ -39,8 +39,6 @@ function _book($from_Content,$fromUsername,$toUsername,$time)
     preg_match_all($pattern, $match[0], $results,PREG_SET_ORDER);
 
     $s=$results;
-
-
     for ($i=1; $i<=120; $i++)//微信多图文一次只能传递10个图文，所以进行限制
     {
 
@@ -78,8 +76,6 @@ function _book($from_Content,$fromUsername,$toUsername,$time)
 <MsgType><![CDATA[news]]></MsgType>
 <ArticleCount>$count</ArticleCount>
 <Articles>
-
-
 <item>
            <Title><![CDATA[1.".$arr_title[1]."  --".$arr_zuozhe[1]."]]></Title> 
          <PicUrl><![CDATA[http://1.shnupartner.sinaapp.com/images/lib.png]]></PicUrl> 
@@ -196,6 +192,5 @@ function _book($from_Content,$fromUsername,$toUsername,$time)
 </xml>  ";
         echo $resultStr;
         exit;
-
     }
 }

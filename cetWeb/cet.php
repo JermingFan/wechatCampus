@@ -1,7 +1,6 @@
 <html>
 <head>
     <meta charset=UTF-8">
-
     <title>师大小伙伴</title>
     <meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
     <meta name="apple-mobile-web-app-capable" content="yes">

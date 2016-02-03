@@ -1,6 +1,4 @@
 <?php
-//echo $_POST['name'];
-//echo $_POST['number'];
 
 if (empty($_POST['name'])||empty($_POST['number']))
 {

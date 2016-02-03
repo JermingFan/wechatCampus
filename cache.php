@@ -1,5 +1,5 @@
 <?php
-require_once (YOUR_ROOT_PATH.'/BaeMemcache.class.php');
+require_once ('./BaeMemcache.class.php');
 /*Cache配置信息，可查询Cache详情页*/
 $cacheid = 'xxx';
 $host = 'cache.duapp.com';
