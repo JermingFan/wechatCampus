@@ -8,6 +8,8 @@ $user = 'xxx';
 $pwd = 'xxx';
 $mem = new BaeMemcache($cacheid,$host. ': '. $port, $user, $pwd);
 $mem->set("key","value");
-echo $mem->get("key");
+if (!empty($mem)) {
+    echo $mem->get("key");
+}
 else echo "error";
 ?>
