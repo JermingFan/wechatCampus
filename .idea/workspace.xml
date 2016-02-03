@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="689cdb0d-fd92-4bf1-8810-2fca1bda2154" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/baiduTranslate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/baike.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/bangzhu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/calendar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/express.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/gold.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/news.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/translate.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/weather.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/xiaohua.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/book.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/lib_data.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/more.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/more2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/library/more3.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wechatCampus.iws" />
@@ -34,46 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="xiaohua.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/xiaohua.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="35.25926">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="weather.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/weather.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="news.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/news.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gold.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/gold.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="express.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/express.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -104,11 +59,86 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="baiduTranslate.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="baiduTranslate.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/baiduTranslate.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37037036">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            <state vertical-scroll-proportion="-10.666667">
+              <caret line="18" column="92" selection-start-line="18" selection-start-column="92" selection-end-line="18" selection-end-column="92" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="book.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/library/book.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-49.77778">
+              <caret line="84" column="52" selection-start-line="84" selection-start-column="52" selection-end-line="84" selection-end-column="52" />
+              <folding>
+                <marker date="1454488379437" expanded="true" signature="2392:4939" placeholder="..." />
+                <marker date="1454488379437" expanded="true" signature="2640:4932" placeholder="..." />
+                <marker date="1454488379437" expanded="true" signature="2649:2957" placeholder="..." />
+                <marker date="1454488379437" expanded="true" signature="2965:3182" placeholder="..." />
+                <marker date="1454488379437" expanded="true" signature="3189:3401" placeholder="..." />
+                <marker date="1454488379437" expanded="true" signature="3408:3623" placeholder="..." />
+                <marker date="1454488379437" expanded="true" signature="3630:3840" placeholder="..." />
+                <marker date="1454488379437" expanded="true" signature="3847:4062" placeholder="..." />
+                <marker date="1454488379437" expanded="true" signature="4069:4284" placeholder="..." />
+                <marker date="1454488379437" expanded="true" signature="4291:4506" placeholder="..." />
+                <marker date="1454488379437" expanded="true" signature="4513:4727" placeholder="..." />
+                <marker date="1454488379437" expanded="true" signature="4734:4917" placeholder="..." />
+                <marker date="1454488379437" expanded="true" signature="5026:7697" placeholder="..." />
+                <marker date="1454488379437" expanded="true" signature="5277:7690" placeholder="..." />
+                <marker date="1454488379437" expanded="true" signature="5285:5602" placeholder="..." />
+                <marker date="1454488379437" expanded="true" signature="5610:5836" placeholder="..." />
+                <marker date="1454488379437" expanded="true" signature="5843:6064" placeholder="..." />
+                <marker date="1454488379437" expanded="true" signature="6071:6295" placeholder="..." />
+                <marker date="1454488379437" expanded="true" signature="6302:6521" placeholder="..." />
+                <marker date="1454488379437" expanded="true" signature="6528:6752" placeholder="..." />
+                <marker date="1454488379437" expanded="true" signature="6759:6983" placeholder="..." />
+                <marker date="1454488379437" expanded="true" signature="6990:7214" placeholder="..." />
+                <marker date="1454488379437" expanded="true" signature="7221:7444" placeholder="..." />
+                <marker date="1454488379437" expanded="true" signature="7451:7678" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lib_data.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/library/lib_data.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.5185184">
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="more.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/library/more.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.4814814">
+              <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="more2.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/library/more2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.296296">
+              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="more3.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/library/more3.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.50617284">
+              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -116,16 +146,6 @@
       </file>
       <file leaf-file-name="calendar.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/calendar.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="translate.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/translate.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -160,6 +180,11 @@
         <option value="$PROJECT_DIR$/cetWeb/cet.php" />
         <option value="$PROJECT_DIR$/cetWeb/result.php" />
         <option value="$PROJECT_DIR$/api/baiduTranslate.php" />
+        <option value="$PROJECT_DIR$/library/book.php" />
+        <option value="$PROJECT_DIR$/library/lib_data.php" />
+        <option value="$PROJECT_DIR$/library/more.php" />
+        <option value="$PROJECT_DIR$/library/more2.php" />
+        <option value="$PROJECT_DIR$/library/more3.php" />
       </list>
     </option>
   </component>
@@ -231,7 +256,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="library" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -245,7 +270,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -332,15 +357,22 @@
       <option name="project" value="LOCAL" />
       <updated>1454380564055</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update">
+      <created>1454488211768</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1454488211768</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1432" y="128" width="1320" height="784" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20935583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20935583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -348,7 +380,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -381,32 +412,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scenery.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robot.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="88" column="2" selection-start-line="88" selection-start-column="2" selection-end-line="88" selection-end-column="2" />
-          <folding>
-            <marker date="1454329688122" expanded="true" signature="1008:1077" placeholder="SELECT stu_n... students" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cetWeb/cet_files/cet.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -769,8 +774,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/baiduTranslate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37037036">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state vertical-scroll-proportion="-10.666667">
+          <caret line="18" column="92" selection-start-line="18" selection-start-column="92" selection-end-line="18" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/lib_data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5185184">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/book.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-49.77778">
+          <caret line="84" column="52" selection-start-line="84" selection-start-column="52" selection-end-line="84" selection-end-column="52" />
+          <folding>
+            <marker date="1454488379437" expanded="true" signature="2392:4939" placeholder="..." />
+            <marker date="1454488379437" expanded="true" signature="2640:4932" placeholder="..." />
+            <marker date="1454488379437" expanded="true" signature="2649:2957" placeholder="..." />
+            <marker date="1454488379437" expanded="true" signature="2965:3182" placeholder="..." />
+            <marker date="1454488379437" expanded="true" signature="3189:3401" placeholder="..." />
+            <marker date="1454488379437" expanded="true" signature="3408:3623" placeholder="..." />
+            <marker date="1454488379437" expanded="true" signature="3630:3840" placeholder="..." />
+            <marker date="1454488379437" expanded="true" signature="3847:4062" placeholder="..." />
+            <marker date="1454488379437" expanded="true" signature="4069:4284" placeholder="..." />
+            <marker date="1454488379437" expanded="true" signature="4291:4506" placeholder="..." />
+            <marker date="1454488379437" expanded="true" signature="4513:4727" placeholder="..." />
+            <marker date="1454488379437" expanded="true" signature="4734:4917" placeholder="..." />
+            <marker date="1454488379437" expanded="true" signature="5026:7697" placeholder="..." />
+            <marker date="1454488379437" expanded="true" signature="5277:7690" placeholder="..." />
+            <marker date="1454488379437" expanded="true" signature="5285:5602" placeholder="..." />
+            <marker date="1454488379437" expanded="true" signature="5610:5836" placeholder="..." />
+            <marker date="1454488379437" expanded="true" signature="5843:6064" placeholder="..." />
+            <marker date="1454488379437" expanded="true" signature="6071:6295" placeholder="..." />
+            <marker date="1454488379437" expanded="true" signature="6302:6521" placeholder="..." />
+            <marker date="1454488379437" expanded="true" signature="6528:6752" placeholder="..." />
+            <marker date="1454488379437" expanded="true" signature="6759:6983" placeholder="..." />
+            <marker date="1454488379437" expanded="true" signature="6990:7214" placeholder="..." />
+            <marker date="1454488379437" expanded="true" signature="7221:7444" placeholder="..." />
+            <marker date="1454488379437" expanded="true" signature="7451:7678" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/more.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4814814">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/more2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.296296">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/more3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50617284">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
           <folding />
         </state>
       </provider>
