@@ -1,5 +1,5 @@
 <?php
-function _post($fromUsername)
+function post($fromUsername)
 {
     $cookie_file = tempnam('./temp','cookie');
     $login_url   = 'xxx';

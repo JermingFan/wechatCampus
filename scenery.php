@@ -1,5 +1,5 @@
 <?php
-function _trip()
+function trip()
 {
     $item[0]['Title']="漫步校园";
     $item[0]['Description']="";

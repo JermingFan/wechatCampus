@@ -1,5 +1,5 @@
 <?php
-function _sdyw()
+function sdyw()
 {
     $url  = 'xxx';
     $info = file_get_contents($url);

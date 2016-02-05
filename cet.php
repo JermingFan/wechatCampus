@@ -1,5 +1,5 @@
 <?php
-function _cet($keyword)
+function cet($keyword)
 {
     $id=substr($keyword,0,15);
     $name=substr($keyword,15);

@@ -79,7 +79,7 @@ class wechatCallbackapiTest
             if (empty($user_flag)) {
                 //要闻
                 if ($keyword == '1' || $keyword == "要闻" || $keyword == "师大要闻") {
-                    $items = _sdyw();
+                    $items = sdyw();
                     $itemTpl = "<item>
                                     <Title><![CDATA[%s]]></Title>
                                     <Description><![CDATA[%s]]></Description>
@@ -102,7 +102,7 @@ class wechatCallbackapiTest
                 }
                 //公告
                 else if ($keyword == '2' || $keyword == "公告" || $keyword == "最新公告") {
-                    $items = _zxgg();
+                    $items = zxgg();
                     $itemTpl = "<item>
                                     <Title><![CDATA[%s]]></Title>
                                     <Description><![CDATA[%s]]></Description>
@@ -134,7 +134,7 @@ class wechatCallbackapiTest
                 //                     }
                 //校园地图
                 else if ($keyword == '8' || $keyword == "地图" || $keyword == "校园" || $keyword == "校园地图") {
-                    $items = _trip();
+                    $items = trip();
                     $itemTpl = "<item>
                                    <Title><![CDATA[%s]]></Title>
                                    <Description><![CDATA[%s]]></Description>
@@ -160,7 +160,7 @@ class wechatCallbackapiTest
                     $sql = "select stu_no,stu_wd from students where from_user = '$fromUsername'";
                     $result = _select_data($sql);
                     if (!!$rows = mysql_fetch_array($result)) {
-                        $i = _post($fromUsername);
+                        $i = post($fromUsername);
                         $title = "查询";
                         //标题
                         $PicUrl = "";
@@ -204,22 +204,7 @@ class wechatCallbackapiTest
                     $resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time, $contentStr);
                     echo $resultStr;
                 }
-                //校园卡
-                else if ($keyword == "校园卡" || $keyword == "9" || $keyword == "校园卡挂失") {
-                    $contentStr = '<a href="http://mp.weixin.qq.com/s?__biz=MzA5OTY1NDUyOA==&mid=200492552&idx=1&sn=bcf9597271864cd357a1364c40089999#rd">点击此处进入校园卡挂失๑•ิ .•ั๑</a>
----------------
-[输入0返回主页]';
-                    $resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time, $contentStr);
-                    echo $resultStr;
-                }
-                //维修
-                else if ($keyword == "维修" || $keyword == "数码维修" || $keyword == "手机维修" || $keyword == "电脑维修") {
-                    $contentStr = '<a href="https://www.jinshuju.net/f/PdYNu4">点击此处进入数码维修服务๑•ิ .•ั๑</a>
----------------
-[输入0返回主页]';
-                    $resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time, $contentStr);
-                    echo $resultStr;
-                }
+
                 // 睡觉
                 // else if($keyword == '90' || $keyword == "睡觉" || $keyword == "我要睡觉")
                 // {
@@ -296,55 +281,7 @@ class wechatCallbackapiTest
                     $resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time, $contentStr);
                     echo $resultStr;
                 }
-                //秒杀
-                // else if ($keyword == "秒杀")
-                // {
-                //     $shijian=strtotime("2015-05-18 13:00:00")-time();      //
-                //     if($shijian>0)
-                //     {
-                //         $contentStr = "对不起，秒杀还没开始，2013年6月5日21点开始"; //
-                //     }
-                //     else
-                //     {
-                //         $sql="SELECT from_user FROM miaosha_man WHERE from_user =  '$fromUsername'";
-                //         $query=_select_data($sql);
-                //         $rs=mysql_fetch_array($query);
-                //         $c= $rs[from_user];
-                //         if ($c==$fromUsername)
-                //         {
-                //            $contentStr = "你已经秒杀过了哦~";
-                //         }
-                //         else
-                //         {
-                //            $sql="insert into miaosha_man (`from_user`) VALUES ('$fromUsername')";
-                //            $a = _insert_data($sql);
-                //            $sql="SELECT `num` FROM `miaosha`";
-                //            $query=_select_data($sql);
-                //            $rs=mysql_fetch_array($query);
-                //            $b= $rs['num'];
-                //            if ($b>0)
-                //            {
-                //                 $contentStr = "恭喜你秒杀成功，凭此条微信"; //
-                //                 $b--;
-                //                 $sql="UPDATE `miaosha` SET `num`='$b'";
-                //                 _update_data($sql);
-                //             }
-                //             else
-                //             {
-                //                 $contentStr = "很遗憾，你没有秒杀成功，下次再来吧。。。";
-                //             }
-                //         }
-                //     }
-                //     $resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time, $contentStr);
-                //     echo $resultStr;
-                // }
-                // 机器人
-                // else
-                // {
-                //     $contentStr = getXiaoiInfo($fromUsername, $keyword);
-                //     $resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time, $contentStr);
-                //     echo $resultStr;
-                // }
+
                 /************************************* 插入数据 ****************************************/
                 if (!empty($sql)) {
                     _insert_data($sql);
@@ -354,13 +291,13 @@ class wechatCallbackapiTest
             else {
                 if ($user_flag == '4') //四六级
                 {
-                    $b = _cet($keyword);
+                    $b = cet($keyword);
                     $contentStr = "学校：" . $b[school] . "\n" . "姓名：" . $b[name] . "\n" . "等级：" . $b[cet] . "\n" . "分数：" . $b[score];
                     $resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time, $contentStr);
                     echo $resultStr;
                 } else if ($user_flag == '5') //图书
                 {
-                    _book($keyword, $fromUsername, $toUsername, $time);
+                    book($keyword, $fromUsername, $toUsername, $time);
                     /*$url = "http://202.121.55.6:8080/opac/search_rss.php?location=ALL&title={$keyword}&doctype=ALL&lang_code=ALL&match_flag=forward&displaypg=20&showmode=list&orderby=DESC&sort=CATA_DATE&onlylendable=yes&with_ebook=&with_ebook=";
                     $fa = file_get_contents($url);
                     $f = simplexml_load_string($fa);

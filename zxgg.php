@@ -1,5 +1,5 @@
 <?php
-function _zxgg()
+function zxgg()
 {
     $url  = 'xxx';
     $info = file_get_contents($url);
